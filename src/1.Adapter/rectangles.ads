@@ -26,9 +26,6 @@ package Rectangles is
    
    --Client
    
-   --type Rectangle_Drawer is interface;
-   --procedure Draw(This : Rectangle_Drawer; Rect : access Rectangle'Class) is null;
-   
    type Client is tagged null record;
    
    procedure Draw(This : Client; Rect : access Rectangle'Class);
